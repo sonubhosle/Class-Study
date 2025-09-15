@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced Form Example</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Advanced Form Example</h1>
+
+    <form action="#" method="post">
+      <!-- Select & Option -->
+      <div class="form-group">
+        <label for="course">Choose a course:</label>
+        <select id="course" name="course">
+          <option value="">-- Select a course --</option>
+          <option value="web">Web Development</option>
+          <option value="ds">Data Science</option>
+          <option value="uiux">UI/UX Design</option>
+        </select>
+      </div>
+
+      <!-- Textarea -->
+      <div class="form-group">
+        <label for="message">Your Feedback:</label>
+        <textarea id="message" name="message" rows="4" placeholder="Write your feedback here..."></textarea>
+      </div>
+
+      <!-- Checkboxes -->
+      <div class="form-group">
+        <label>Skills You Have:</label>
+        <div class="checkbox-group">
+          <label><input type="checkbox" name="skills" value="html"> HTML</label>
+          <label><input type="checkbox" name="skills" value="css"> CSS</label>
+          <label><input type="checkbox" name="skills" value="js"> JavaScript</label>
+        </div>
+      </div>
+
+      <!-- File Upload -->
+      <div class="form-group">
+        <label for="resume">Upload Resume:</label>
+        <input type="file" id="resume" name="resume">
+      </div>
+
+      <!-- Submit -->
+      <button type="submit">Submit Form</button>
+    </form>
+  </main>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lists Example</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <h1>List Example</h1>
+
+    <section>
+      <h2>Unordered list (bullets)</h2>
+      <ul class="simple-ul" aria-label="Features list">
+        <li>Responsive</li>
+        <li>Accessible</li>
+        <li>Lightweight</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Ordered list (numbers)</h2>
+      <ol class="simple-ol" aria-label="Steps to follow">
+        <li>Install dependencies</li>
+        <li>Write code</li>
+        <li>Test and deploy</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Nested lists </h2>
+      <p>Below is a mixed nested list showing bullets inside numbered steps and vice versa.</p>
+
+      <ol class="nested-ol" aria-label="Project plan">
+        <li>Plan
+          <ul>
+            <li>Gather requirements</li>
+            <li>Create wireframes</li>
+          </ul>
+        </li>
+
+        <li>Build
+          <ol>
+            <li>Setup project</li>
+            <li>Implement features
+              <ul>
+                <li>Authentication</li>
+                <li>Database models</li>
+              </ul>
+            </li>
+            <li>Write tests</li>
+          </ol>
+        </li>
+
+        <li>Release
+          <ul>
+            <li>Prepare changelog</li>
+            <li>Deploy to production</li>
+          </ul>
+        </li>
+      </ol>
+    </section>
+  </main>
+</body>
+</html>
