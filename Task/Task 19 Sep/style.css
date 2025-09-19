@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: #f5f6fa;
+
+}
+
+.wrapper {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    padding: 10px;
+    background-color: #fff;
+}
+
+ .line{
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+    margin: 20px 0;
+}
+
+.wrapper .left-side {
+    width: 35%;
+    height: 100%;
+    padding:  10px 20px;
+
+}
+
+.wrapper .left-side h1{
+    color: #333;
+    font-size: 28px;
+}
+.wrapper .left-side h2{
+    color: #666;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 6px;
+}
+
+.wrapper .left-side .items{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.wrapper .left-side .items li{
+    list-style: none;
+    color: #333;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.wrapper .left-side .items li:hover{
+     color: #ff4757;
+}
+
+.wrapper .left-side .buttons{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.wrapper .left-side .buttons button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #ff4757;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.wrapper .left-side .buttons .sell-btn{
+    background-color: #1e90ff;
+}
+
+.wrapper .right-side {
+    width: 65%;
+    height: 100%;
+    padding: 10px;
+}
+
+.wrapper .right-side .images{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.wrapper .right-side .images img{
+    width: 31%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.wrapper .right-side h4{
+    color: #333;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.wrapper .right-side p{
+    color: #333;
+    margin-top: 10px;
+}
